@@ -1,4 +1,10 @@
+<img width="618" height="618" align="right" src="https://raw.githubusercontent.com/SubZtep/SubZtep/master/assets/vaporwave-xT9IgKbyE24X7wjWjS.gif"/>
+
 ### Hi there 👋
+
+- 🔭 **busy** [js13k](https://github.com/SubZtep/js13k-2020) atm.
+- 🌱 [dict. ext. soon](https://github.com/SubZtep/web-words)
+- ⚡ update l8r
 
 <!--
 **SubZtep/SubZtep** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
