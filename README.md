@@ -1,4 +1,4 @@
-<img width="618" height="618" align="right" src="https://raw.githubusercontent.com/SubZtep/SubZtep/master/assets/vaporwave-xT9IgKbyE24X7wjWjS.gif"/>
+<img width="618" align="right" src="https://raw.githubusercontent.com/SubZtep/SubZtep/cf5aaad5dba1bcee95e245993a23b8a7e8b76590/assets/vaporwave-xT9IgKbyE24X7wjWjS.gif"/>
 
 ### Hi there 👋
 
