@@ -16,8 +16,8 @@
 
 | Project | Description | Web | Archived | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Updated&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Since |
 | - | - | - | - | - | - |
-| [SubZtep](https://github.com/SubZtep/SubZtep) |  |  |  | ![2020-12-06T22:17:05Z](https://kaja.io/.netlify/functions/ago?time=1607293025000) | 2020 |
-| [typescript-boilerplate](https://github.com/SubZtep/typescript-boilerplate) | Kickstart Scripting ☆ TypeScript ☆ Pug ☆ Prettier ☆ Rollup ☆ Nollup ☆ Babel ☆ Jest ☆ PM2 — Visit Wiki for Readme. | [:link:](https://github.com/SubZtep/typescript-boilerplate/wiki) |  | ![2020-12-06T11:06:46Z](https://kaja.io/.netlify/functions/ago?time=1607252806000) | 2020 |
+| [typescript-boilerplate](https://github.com/SubZtep/typescript-boilerplate) | Kickstart Scripting ☆ TypeScript ☆ Pug ☆ Prettier ☆ Rollup ☆ Nollup ☆ Babel ☆ Jest ☆ PM2 — Visit Wiki for Readme. | [:link:](https://github.com/SubZtep/typescript-boilerplate/wiki) |  | ![2020-12-07T02:11:14Z](https://kaja.io/.netlify/functions/ago?time=1607307074000) | 2020 |
+| [SubZtep](https://github.com/SubZtep/SubZtep) |  |  |  | ![2020-12-07T00:53:06Z](https://kaja.io/.netlify/functions/ago?time=1607302386000) | 2020 |
 | [a-4o4](https://github.com/SubZtep/a-4o4) | :suspect: |  |  | ![2020-12-06T02:31:03Z](https://kaja.io/.netlify/functions/ago?time=1607221863000) | 2020 |
 | [gh-projects](https://github.com/SubZtep/gh-projects) | My GitHub GraphQL API Playground. :crystal_ball: |  |  | ![2020-12-02T21:46:55Z](https://kaja.io/.netlify/functions/ago?time=1606945615000) | 2020 |
 | [demo-land](https://github.com/SubZtep/demo-land) | My forever ongoing website. 🕯 | [:link:](https://demo.land) |  | ![2020-12-02T12:21:52Z](https://kaja.io/.netlify/functions/ago?time=1606911712000) | 2020 |
@@ -50,4 +50,4 @@
 | [qwd](https://github.com/SubZtep/qwd) | Quick Web Document (webserverish) |  |  | ![2019-03-21T20:07:41Z](https://kaja.io/.netlify/functions/ago?time=1553198861000) | 2019 |
 | [prefetch-images](https://github.com/SubZtep/prefetch-images) |  |  |  | ![2019-03-13T23:59:25Z](https://kaja.io/.netlify/functions/ago?time=1552521565000) | 2019 |
 | [code-syntax-highlight](https://github.com/SubZtep/code-syntax-highlight) | Prism WordPress embedder |  |  | ![2018-10-01T06:49:32Z](https://kaja.io/.netlify/functions/ago?time=1538376572000) | 2018 |
-> :hourglass: Mon Dec 07 2020 00:52:16 GMT+0000 (Greenwich Mean Time)
+> :hourglass: Mon Dec 07 2020 02:13:05 GMT+0000 (Greenwich Mean Time)
