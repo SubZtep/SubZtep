@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     name: It will update the list at some point
     steps:
-    - name: Hello world action step
-      id: hello
-      uses: SubZtep/my-repos-action@v0
+      - uses: actions/checkout@v2
       with:
-        who-to-greet: "Mona the Octocat"
-    - name: Get the output time
-      run: echo "The time was ${{ steps.hello.outputs.time }}"
+        persist-credentials: false
+        fetch-depth: 0
+    - name: Update markdown
+      run: |
+        npm run data_markdown
