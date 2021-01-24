@@ -8,6 +8,6 @@ on:
         id: hello
         uses: actions/my-repos-action@v0
         with:
-          who-to-greet: 'Mona the Octocat'ep
+          who-to-greet: "Mona the Octocat"
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
