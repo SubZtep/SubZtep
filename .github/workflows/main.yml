@@ -6,7 +6,7 @@ on:
       steps:
       - name: Hello world action step
         id: hello
-        uses: actions/hello-world-javascript-action@v1.1
+        uses: actions/my-repos-action@v0
         with:
           who-to-greet: 'Mona the Octocat'ep
       - name: Get the output time
