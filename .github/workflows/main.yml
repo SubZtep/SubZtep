@@ -1,5 +1,5 @@
-on: workflow_dispatch
-  jobs:
+on:
+  workflow_dispatch:
     my_repos:
       runs-on: ubuntu-latest
       name: It will update the list at some point
