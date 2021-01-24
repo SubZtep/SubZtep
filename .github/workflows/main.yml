@@ -1,0 +1,13 @@
+on: workflow_dispatch
+  jobs:
+    my_repos:
+      runs-on: ubuntu-latest
+      name: It will update the list at some point
+      steps:
+      - name: Hello world action step
+        id: hello
+        uses: actions/hello-world-javascript-action@v1.1
+        with:
+          who-to-greet: 'Mona the Octocat'ep
+      - name: Get the output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
