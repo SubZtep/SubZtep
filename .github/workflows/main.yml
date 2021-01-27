@@ -1,14 +1,24 @@
 on: workflow_dispatch
+  jobs:
+    my_repos:
+      runs-on: ubuntu-latest
+      name: It will update the list at some point
+      steps:
+        - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Update markdown
+        run: |
+          npm run data_markdown
+      - name: Commit files
+        run: |
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git config --local user.name "$GITHUB_ACTOR"
+          git commit -a -m "Repository changes update"
 
-jobs:
-  my_repos:
-    runs-on: ubuntu-latest
-    name: It will update the list at some point
-    steps:
-      - uses: actions/checkout@v2
-      with:
-        persist-credentials: false
-        fetch-depth: 0
-    - name: Update markdown
-      run: |
-        npm run data_markdown
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.head_ref }}
