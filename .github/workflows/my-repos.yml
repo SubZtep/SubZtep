@@ -14,7 +14,7 @@ jobs:
           # token: ${{ secrets.GH_ACCESS_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Let's README
-        run: cat READI.md > README.md && echo ${{ steps.my-repos.outputs.table }} >> README.md
+        run: cat READI.md > README.md && echo "${{ steps.my-repos.outputs.table }}" >> README.md
       - name: Commit files
         run: |
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
