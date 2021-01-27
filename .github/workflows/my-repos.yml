@@ -11,7 +11,17 @@ jobs:
         id: my-repos
         uses: SubZtep/my-repos-action@main
         with:
-          #token: ${{ secrets.GH_ACCESS_TOKEN }}
+          # token: ${{ secrets.GH_ACCESS_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Let's README
-        run: echo ${{ steps.my-repos.outputs.table }}
+        run: cat READI.md > README.md && echo ${{ steps.my-repos.outputs.table }} >> README.md
+      - name: Commit files
+        run: |
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git config --local user.name "$GITHUB_ACTOR"
+          git commit -a -m "Repository changes update"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.head_ref }}
