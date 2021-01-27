@@ -11,6 +11,7 @@ jobs:
         id: my-repos
         uses: SubZtep/my-repos-action@main
         with:
-          token: ${{ secrets.GH_ACCESS_TOKEN }}
+          #token: ${{ secrets.GH_ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Let's README
         run: echo ${{ steps.my-repos.outputs.table }}
