@@ -21,7 +21,7 @@ jobs:
         shell: bash
         run: |
           cat READI.md > README.md
-          echo "${{ steps.my-repos.outputs.table }}" >> README.md
+          printf "%s" "${{ steps.my-repos.outputs.table }}" >> README.md
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
