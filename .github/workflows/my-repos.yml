@@ -7,7 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     name: It should do something
     steps:
-      - uses: SubZtep/my-repos-action@v0.2.3
+      - uses: SubZtep/my-repos-action@v0.2.4
         with:
-          token: ${{ secrets.GH_ACCESS_TOKEN }}
+          url: ${GITHUB_GRAPHQL_URL}
+          token: ${{secrets.GH_ACCESS_TOKEN}}
           login: SubZtep
