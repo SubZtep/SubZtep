@@ -9,5 +9,5 @@ jobs:
     steps:
       - uses: SubZtep/my-repos-action@v0.2.3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
           login: SubZtep
