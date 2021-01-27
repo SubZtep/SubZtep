@@ -7,10 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     name: It should do something
     steps:
-      - run: echo env
-      - uses: SubZtep/my-repos-action@main
+      - name: My Repos
+        id: my-repos
+        uses: SubZtep/my-repos-action@main
         with:
-          url: GITHUB_GRAPHQL_URL
-          #url: https://api.github.com/graphql
-          token: ${{secrets.GH_ACCESS_TOKEN}}
-          login: SubZtep
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # token: ${{ secrets.GH_ACCESS_TOKEN }}
+      - name: Let's README
+        run: echo ${{ steps.my_repos.output.table }}
