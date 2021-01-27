@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     name: It should do something
     steps:
-      - run: echo $GITHUB_GRAPHQL_URL
-      - uses: SubZtep/my-repos-action@v0.2.4
+      - uses: SubZtep/my-repos-action@v0.2.5
         with:
           url: $GITHUB_GRAPHQL_URL
+          #url: https://api.github.com/graphql
           token: ${{secrets.GH_ACCESS_TOKEN}}
           login: SubZtep
