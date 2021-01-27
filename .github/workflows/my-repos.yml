@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: It should do something
     steps:
-      - uses: SubZtep/my-repos-action@v0.2.2
+      - uses: SubZtep/my-repos-action@v0.2.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           login: SubZtep
