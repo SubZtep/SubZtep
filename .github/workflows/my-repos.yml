@@ -13,8 +13,16 @@ jobs:
         with:
           # token: ${{ secrets.GH_ACCESS_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
       - name: Let's README
-        run: cat READI.md > README.md && echo $steps.my-repos.outputs.table >> README.md
+        shell: bash
+        run: |
+          cat READI.md > README.md
+          echo "${{ steps.my-repos.outputs.table }}" >> README.md
+        #run: cat READI.md > README.md && echo $steps.my-repos.outputs.table >> README.md
       - name: Commit files
         run: |
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
