@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: SubZtep/my-repos-action@v0.2.4
         with:
-          url: ${GITHUB_GRAPHQL_URL}
+          url: $GITHUB_GRAPHQL_URL
           token: ${{secrets.GH_ACCESS_TOKEN}}
           login: SubZtep
