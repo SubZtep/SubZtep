@@ -23,7 +23,7 @@ jobs:
       - name: Compose README
         shell: bash
         run: |
-          git pull
+          git pull --ff-only
           cat ME.md > README.md
           printf "%s" "${{ steps.my-repos.outputs.table }}" >> README.md
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
