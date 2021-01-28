@@ -1,31 +1,35 @@
-name: Update My Repos
+name: My Repos
 
 on: workflow_dispatch
 
 jobs:
   my_repos:
     runs-on: ubuntu-latest
-    name: It should do something
+    name: Update Profile
     steps:
-      - name: My Repos
+      - name: Graph Query
         id: my-repos
         uses: SubZtep/my-repos-action@main
         with:
-          # token: ${{ secrets.GH_ACCESS_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/checkout@v2
+          token: ${{ secrets.GH_ACCESS_TOKEN }}
+          # token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch Current Repo
+        uses: actions/checkout@v2
         with:
           persist-credentials: false
           fetch-depth: 0
-      - name: Let's README
+
+      - name: Compose README
         shell: bash
         run: |
-          cat READI.md > README.md
+          cat ME.md > README.md
           printf "%s" "${{ steps.my-repos.outputs.table }}" >> README.md
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git config --local user.name "$GITHUB_ACTOR"
           git commit -a -m "Repo Repu"
-      - name: Push changes
+
+      - name: Push Profile
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
