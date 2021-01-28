@@ -7,18 +7,18 @@ jobs:
     runs-on: ubuntu-latest
     name: Update Profile
     steps:
-      - name: Refresh Repo
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-          fetch-depth: 0
+      #- name: Refresh Repo
+      #  uses: actions/checkout@v2
+      #  with:
+      #    persist-credentials: false
+      #    fetch-depth: 0
 
       - name: Graph Query
         id: my-repos
         uses: SubZtep/my-repos-action@main
         with:
-          token: ${{ secrets.GH_ACCESS_TOKEN }}
-          # token: ${{ secrets.GITHUB_TOKEN }}
+          #token: ${{ secrets.GH_ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Compose README
         shell: bash
@@ -28,6 +28,7 @@ jobs:
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git config --local user.name "$GITHUB_ACTOR"
           git commit -a -m "Repo Repu"
+          cat README.md
 
       - name: Push Profile
         uses: ad-m/github-push-action@master
