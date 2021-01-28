@@ -7,15 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     name: Update Profile
     steps:
-      - name: Graph Query
+      - uses: SubZtep/my-repos-action@main
         id: my-repos
-        uses: SubZtep/my-repos-action@main
         with:
           #token: ${{ secrets.GH_ACCESS_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update My Repo
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
         run: |
           cat ME.md > README.md
           printf "%s" "${{ steps.my-repos.outputs.table }}" >> README.md
