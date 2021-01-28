@@ -19,10 +19,17 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+
+      - name: Compose README
+        shell: bash
         run: |
           cat ME.md > README.md
           printf "%s" "${{ steps.my-repos.outputs.table }}" >> README.md
           cat README.md
+
+      - name: Commit Changes
+        uses: actions/checkout@v2
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
