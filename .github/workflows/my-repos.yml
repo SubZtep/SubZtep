@@ -7,6 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Update Profile
     steps:
+      - name: Refresh Repo
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
       - name: Graph Query
         id: my-repos
         uses: SubZtep/my-repos-action@main
@@ -14,16 +20,9 @@ jobs:
           token: ${{ secrets.GH_ACCESS_TOKEN }}
           # token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Fetch Current Repo
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-
       - name: Compose README
         shell: bash
         run: |
-          git pull --ff-only
           cat ME.md > README.md
           printf "%s" "${{ steps.my-repos.outputs.table }}" >> README.md
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
