@@ -15,9 +15,9 @@
 ---
 | Project | Description | Web | Archived | Updated | Since |
 | - | - | - | - | - | - |
-| [my-repos-action](https://github.com/SubZtep/my-repos-action) |  |  |  | 1 minute ago | 2021 |
-| [SubZtep](https://github.com/SubZtep/SubZtep) |  |  |  | 3 minutes ago | 2020 |
-| [time-passing-lambda-image](https://github.com/SubZtep/time-passing-lambda-image) | Netlify Function that calculating the distance from a given date and now in words — rendered on a base64 image |  |  | 5 days ago | 2021 |
+| [time-passing-lambda-image](https://github.com/SubZtep/time-passing-lambda-image) | Serverless function that calculating the distance from a given date and now in words — rendered on a base64 image |  |  | 1 minute ago | 2021 |
+| [SubZtep](https://github.com/SubZtep/SubZtep) |  |  |  | About 2 hours ago | 2020 |
+| [my-repos-action](https://github.com/SubZtep/my-repos-action) |  |  |  | About 2 hours ago | 2021 |
 | [gif-animation-preview](https://github.com/SubZtep/gif-animation-preview) | WordPress Plugin - Replace GIF animations to a single preview image | [:link:](http://wordpress.org/plugins/gif-animation-preview/) |  | 6 days ago | 2014 |
 | [map](https://github.com/SubZtep/map) | OSM Playground |  |  | 7 days ago | 2020 |
 | [synth](https://github.com/SubZtep/synth) | 🎵 Connect Audio Graph Nodes start with Oscillators ➰ Web Audio API 〰️ Synthesizer 🎹 | [:link:](https://subztep.github.io/synth/) |  | 15 days ago | 2020 |
@@ -52,4 +52,4 @@
 | [qwd](https://github.com/SubZtep/qwd) | Quick Web Document (webserverish) |  |  | Almost 2 years ago | 2019 |
 | [prefetch-images](https://github.com/SubZtep/prefetch-images) |  |  |  | Almost 2 years ago | 2019 |
 | [code-syntax-highlight](https://github.com/SubZtep/code-syntax-highlight) | Prism WordPress embedder |  |  | Over 2 years ago | 2018 |
-> :hourglass: Thu Jan 28 2021 00:08:20 GMT+0000 (Coordinated Universal Time)
+> :hourglass: Thu Jan 28 2021 01:39:04 GMT+0000 (Coordinated Universal Time)
