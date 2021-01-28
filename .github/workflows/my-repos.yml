@@ -22,8 +22,11 @@ jobs:
         run: |
           cat READI.md > README.md
           printf "%s" "${{ steps.my-repos.outputs.table }}" >> README.md
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "generated"
-          git push
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git config --local user.name "$GITHUB_ACTOR"
+          git commit -a -m "Repo Repu"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
