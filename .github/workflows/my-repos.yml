@@ -10,8 +10,9 @@ jobs:
       - uses: SubZtep/my-repos-action@main
         id: my-repos
         with:
-          #token: ${{ secrets.GH_ACCESS_TOKEN }}
+          ago: https://time-passing.netlify.app/.netlify/functions/ago?time=
           token: ${{ secrets.GITHUB_TOKEN }}
+          actor: $GITHUB_ACTOR
 
       - uses: actions/checkout@v2
       - run: |
