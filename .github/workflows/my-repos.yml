@@ -12,7 +12,7 @@ jobs:
         with:
           ago: https://time-passing.netlify.app/.netlify/functions/ago?time=
           token: ${{ secrets.GITHUB_TOKEN }}
-          actor: ${{ GITHUB_ACTOR }}
+          actor: ${{ env.GITHUB_ACTOR }}
 
       - uses: actions/checkout@v2
       - run: |
