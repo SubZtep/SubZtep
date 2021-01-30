@@ -15,8 +15,8 @@
 ---
 | Project | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Updated&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Since |
 |  :--  |  :-:  |  ---  |
-| [**my-repos-action**](https://github.com/SubZtep/my-repos-action) — WIP :carousel_horse: Retrieve your fresh and buried public projects in reverse-chronological order for your GitHub profile! | ![2021-01-30T02:42:12Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611974532000) | 2021 |
-| [**SubZtep**](https://github.com/SubZtep/SubZtep) | ![2021-01-30T02:40:33Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611974433000) | 2020 |
+| [**SubZtep**](https://github.com/SubZtep/SubZtep) | ![2021-01-30T05:17:29Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611983849000) | 2020 |
+| [**my-repos-action**](https://github.com/SubZtep/my-repos-action) — Retrieve your fresh and buried public projects in reverse-chronological order for your GitHub profile! :carousel_horse: | ![2021-01-30T04:49:15Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611982155000) | 2021 |
 | [**a-4o4**](https://github.com/SubZtep/a-4o4) — :suspect: | ![2021-01-28T23:14:09Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611875649000) | 2020 |
 | [**time-passing-lambda-image**](https://github.com/SubZtep/time-passing-lambda-image) — Serverless function that calculating the distance from a given date and now in words — rendered on a base64 image | ![2021-01-28T05:51:44Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611813104000) | 2021 |
 | [**gif-animation-preview**](https://github.com/SubZtep/gif-animation-preview) [:spider_web:](http://wordpress.org/plugins/gif-animation-preview/) — WordPress Plugin - Replace GIF animations to a single preview image | ![2021-01-22T01:07:52Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611277672000) | 2014 |
