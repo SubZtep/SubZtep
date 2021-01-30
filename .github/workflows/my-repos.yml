@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Update Profile
     steps:
-      - uses: SubZtep/my-repos-action@main
+      - uses: SubZtep/my-repos-action@v0.3
         id: my-repos
         with:
           ago: https://time-passing.netlify.app/.netlify/functions/ago?time=
