@@ -2,22 +2,19 @@
 
 ## Hi there 👋
 
-- 🔭 **busy** w/ [Web Words](https://github.com/SubZtep/web-words) browser add-on:
-  - Me, the only potential user getting contented with its stability.
-  - As a side effect, I started to memorise my ludicrous word list!
-    - Want for :fire::fox_face: mobile too but have to rewrite the dictionary sync on account of the ridiculous **102400 bytes** synced storage size.
-  - Hopefully 1-2 weeks and I can move on. :snail::dancers:
-  - Already found the :zap: [Chrome bug](https://www.youtube.com/watch?v=XBuz8XjvEAw).
-  - Just as boring as I made an ~~overdesigned~~ [TS boilerplate](https://github.com/SubZtep/typescript-boilerplate) to start a website. :hurtrealbad:
-- :seedling: after :grey_question: my long time untouched [**Blender** tutorial](https://www.udemy.com/course/learn-blender-3d-modeling-for-unity-video-game-development/) suddenly become up2date and finally slightly rationale link to more [**3D** assignments](http://15462.courses.cs.cmu.edu/fall2020/) B4 focus on [**#4o4**](https://github.com/SubZtep/a-4o4) can't wait **(๑˃ᴗ˂)ﻭ**
+- 🔭 **...** w/ ...
+  - :curly_loop:
+  - :wavy_dash:
+  - :part_alternation_mark:
+- :seedling: **(๑˃ᴗ˂)ﻭ**
 - :mailbox_closed: update l8r :crocodile:
 
 ---
 | Project | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Updated&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Since |
 |  :--  |  :-:  |  ---  |
-| [**demo-land**](https://github.com/SubZtep/demo-land) [:spider_web:](https://demo.land) — My forever ongoing website. 🕯 | ![2021-02-01T00:00:17Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1612137617000) | 2020 |
+| [**demo-land**](https://github.com/SubZtep/demo-land) [:spider_web:](https://demo.land) — My forever ongoing website. 🕯 | ![2021-02-01T01:31:25Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1612143085000) | 2020 |
+| [**SubZtep**](https://github.com/SubZtep/SubZtep) | ![2021-02-01T01:19:38Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1612142378000) | 2020 |
 | [**my-repos-action**](https://github.com/SubZtep/my-repos-action) — Retrieve your fresh and buried public projects in reverse-chronological order for your GitHub profile! :carousel_horse: | ![2021-01-30T06:15:45Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611987345000) | 2021 |
-| [**SubZtep**](https://github.com/SubZtep/SubZtep) | ![2021-01-30T05:57:11Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611986231000) | 2020 |
 | [**a-4o4**](https://github.com/SubZtep/a-4o4) — :suspect: | ![2021-01-28T23:14:09Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611875649000) | 2020 |
 | [**time-passing-lambda-image**](https://github.com/SubZtep/time-passing-lambda-image) — Serverless function that calculating the distance from a given date and now in words — rendered on a base64 image | ![2021-01-28T05:51:44Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611813104000) | 2021 |
 | [**gif-animation-preview**](https://github.com/SubZtep/gif-animation-preview) [:spider_web:](http://wordpress.org/plugins/gif-animation-preview/) — WordPress Plugin - Replace GIF animations to a single preview image | ![2021-01-22T01:07:52Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1611277672000) | 2014 |
