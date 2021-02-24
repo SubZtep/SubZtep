@@ -12,9 +12,9 @@
 ---
 | Project | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Updated&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Since |
 |  :--  |  :-:  |  ---  |
+| [**css-tetris-3d**](https://github.com/SubZtep/css-tetris-3d) [:spider_web:](https://subztep.github.io/css-tetris-3d) — Tetris-like code experiment in the CSS 3D space. | ![2021-02-24T11:13:39Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1614165219000) | 2021 |
+| [**SubZtep**](https://github.com/SubZtep/SubZtep) | ![2021-02-22T17:14:02Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1614014042000) | 2020 |
 | [**time-passing-lambda-image**](https://github.com/SubZtep/time-passing-lambda-image) — Serverless function that calculating the distance from a given date and now in words — rendered on a base64 image | ![2021-02-22T17:06:36Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1614013596000) | 2021 |
-| [**SubZtep**](https://github.com/SubZtep/SubZtep) | ![2021-02-22T12:56:18Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1613998578000) | 2020 |
-| [**css-tetris-3d**](https://github.com/SubZtep/css-tetris-3d) [:spider_web:](https://subztep.github.io/css-tetris-3d) — WIP | ![2021-02-22T12:40:15Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1613997615000) | 2021 |
 | [**vite-plugin-pug**](https://github.com/SubZtep/vite-plugin-pug) [:spider_web:](https://www.npmjs.com/package/vite-plugin-pug) — Vite plugin for transform Pug templates into HTML | ![2021-02-18T08:32:45Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1613637165000) | 2021 |
 | [**typescript-boilerplate**](https://github.com/SubZtep/typescript-boilerplate) [:spider_web:](https://github.com/SubZtep/typescript-boilerplate/wiki) :bricks: — Kickstart Scripting ☆ TypeScript ☆ Pug ☆ Prettier ☆ Rollup ☆ Nollup ☆ Babel ☆ Jest ☆ PM2 — Visit Wiki for Readme. | ![2021-02-11T01:52:32Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1613008352000) | 2020 |
 | [**demo-land**](https://github.com/SubZtep/demo-land) [:spider_web:](https://demo.land) — My forever ongoing website. 🕯 | ![2021-02-01T01:31:25Z](https://time-passing.netlify.app/.netlify/functions/ago?time=1612143085000) | 2020 |
