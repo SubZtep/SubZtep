@@ -1,8 +1,6 @@
 <img width="307" align="right" src="https://raw.githubusercontent.com/SubZtep/SubZtep/master/assets/eq1.gif"/>
 
-## Hi there 👋
-
-- [x] :seedling: **(๑˃ᴗ˂)ﻭ** :chains: :white_medium_small_square: My [Codepen](https://codepen.io/SubZtep) :white_medium_small_square: [Blog](https://demo.land/blog/)ish :white_medium_small_square: :alembic: :white_medium_small_square: :mailbox_closed: update l8r :crocodile:
+## Hello there 👋
 
 <!--START_SECTION:waka-->
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.6%20million%20lines%20of%20code-blue)
